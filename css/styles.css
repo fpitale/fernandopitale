@@ -66,8 +66,8 @@ header{
 
      h2 {
         text-align: center;
-        color: coral;
-        margin-bottom: 2rem;
+        color: rgb(0, 0, 0);
+              font-size: 2rem;
      }
 
      .video__contenedor iframe {
@@ -148,3 +148,92 @@ background-color: coral;
 padding:2rem;
 text-align: center;
 }
+
+/* pagina PATERNIDAD */
+.paternidad__fotomanos{
+   height: 500px;
+   width: 500px;
+}
+.paternidad {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   margin-bottom:3rem;
+   font-size: 1.8rem;
+   background-color: coral;
+ }
+
+ h3{ margin-bottom: 3rem;}
+
+ @media (min-width: 768px){
+   .paternidad__fotomanos{ 
+      flex-direction: row;
+    }
+    
+    .paternidad img { 
+      width: 60%;
+   height: 50%;} 
+ }
+ /* Pagina Actividades */
+
+ .actividades__contenedor {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   margin-bottom:3rem;
+   font-size: 1.8rem;
+   background-color: coral;
+ }
+
+ .actividades__contenedor{
+   width: 100%;
+   height: 100%;
+ }
+
+ .texto__actv{
+   font-size: 3.0rem;
+   align-items: center;
+ }
+
+ .h2__actv{
+   font-size: 3.0rem;
+   color:snow
+    }
+
+   /* pagina Ubicacion */
+   .texto__ubicacion{
+      display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   margin-bottom:3rem;
+   font-size: 1.8rem;
+   background-color: coral
+
+   }
+
+   .mapa { 
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5rem;
+      align-items: center;
+      background-color: tomato;
+   }
+
+   /* contactos */
+
+   .form__contactos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5rem;
+      align-items: center;
+      background-color: tomato;
+      font-size: 1.5rem;
+      gap: 1rem;
+   }
+   
